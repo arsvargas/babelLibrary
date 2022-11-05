@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 800px;
+    height: auto;
+    margin: 100px auto;
+}
+li{
+    padding: 15px;
+    box-shadow: #ccc 2px 2px 5px 2px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(1.01);
+    transition: 0.5s;
+    z-index: 5;
+}
+h2, h3{
+    font-family: 'Satisfy', cursive;
+    color: rgb(1, 70, 70);
+}
+span{
+    color: rgb(79, 150, 150);
+    font-size: 20px;
+    font-weight: bold;
+}
+.fa-pencil{
+    font-size: 24px;
+    color: rgb(1, 70, 70);
+    margin: 5px;
+}
+.fa-pencil:hover{
+    color: rgb(79, 150, 150);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cadastrar{
+    display: flex;
+    align-items: center;
+    
+}
+.cadastrar h4{
+    font-size: 25px;
+    color: rgb(1, 70, 70);
+}
+.fa-plus{
+    width: min-content;
+    padding: 5px;
+    font-size: 24px;
+    background-color: rgb(1, 70, 70);
+    margin: 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+.fa-plus:hover{
+    background-color: rgb(79, 150, 150);
+    transition: 0.5s;
+    cursor: pointer;
+}

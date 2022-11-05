@@ -1,0 +1,9 @@
+<app-header></app-header>
+<div class="container">
+    <ul class="books-list" *ngFor="let livro of listaLivros">
+        <li (click)="selectLivro(livro)"><h2>{{livro.titulo}}</h2><h3>{{livro.tipo}}</h3><h3>{{livro.ano}} - 
+            {{livro.autores}}</h3><span>{{livro.status}}</span> </li>
+    </ul>
+    <div class="cadastrar"><i routerLink="/cadastrar-livro" class="fa fa-plus" aria-hidden="true"></i><h4>Cadastrar Livro</h4>
+    </div>
+</div>

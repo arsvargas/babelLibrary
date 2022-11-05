@@ -1,0 +1,21 @@
+<div class="container">
+
+<h1>{{livro.titulo}}</h1>
+<h3>{{livro.autores}}</h3>
+<h4>Resumo: </h4>
+<p>{{livro.resumo}}</p>
+
+<h4>Status: </h4>
+
+<span>{{livro.status}}
+    <select [(ngModel)]="status">
+        <option value="" selected>Alterar Status</option>
+        <option  value="Disponível">Disponível</option>
+        <option  value="Reservado">Reservado</option>
+        <option value="Emprestado">Emprestado</option>
+    </select>
+
+</span>
+<button (click)="atualizarStatus()">Salvar</button>
+</div>
+

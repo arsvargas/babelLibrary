@@ -1,0 +1,22 @@
+.topo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    background-color: rgb(1, 70, 70);
+    align-items: center;
+}
+.topo h2{
+    margin-left: 30px;
+    color: aliceblue;
+}
+.topo i{
+    font-size: 40px;
+    margin-right: 30px;
+    color: aliceblue;
+}
+.topo i:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}

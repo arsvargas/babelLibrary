@@ -1,0 +1,46 @@
+
+.login-card{
+    display: flex;
+    border: 1px solid rgb(24, 165, 142); 
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+input::placeholder{
+    text-align: center;
+    color: rgba(24, 165, 141, 0.514);
+    font-weight: 300;
+}
+input, button{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 0;
+    border: 1px solid rgb(24, 165, 142);
+    font-size: 25px;
+}
+
+button {
+    cursor: pointer;
+    background-image: linear-gradient(163deg,  rgb(145, 223, 210),   rgb(24, 165, 142));
+    color: #fff;
+    border: none;
+}
+button:hover{
+    background-image: linear-gradient(195deg, rgb(145, 223, 210), rgb(24, 165, 142));
+    transition: .3s;
+}
+button:active{
+    transform: translateY(3px);
+}

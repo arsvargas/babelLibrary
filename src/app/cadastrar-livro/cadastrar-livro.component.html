@@ -1,0 +1,25 @@
+<div class="container">
+    <h3>Cadastrar Livro</h3>
+    <div class="form-group">
+        <label for="titulo">Título:</label>
+        <input type="text" [(ngModel)]="titulo" id="titulo">
+
+        <label for="tipo">Tipo:</label>
+        <input type="text" [(ngModel)]="tipo" id="tipo">
+
+        <label for="autores">Autores</label>
+        <input type="text" [(ngModel)]="autores" name="" id="autores">
+
+        <label for="ano">Ano:</label>
+        <input type="text" [(ngModel)]="ano" id="ano">
+
+        <label for="status">Status:</label>
+        <input type="text" [(ngModel)]="status" name="" id="status">
+
+        <label for="resumo">Resumo:</label>
+        <input type="text" [(ngModel)]="resumo" id="resumo">
+
+        <button (click)="cadastrarLivro()" type="submit">Cadastrar</button>
+
+    </div>
+</div>
